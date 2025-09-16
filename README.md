@@ -38,14 +38,14 @@ The easiest way to run the project is by using Docker and Docker Compose. With t
         environment:
           # ...
           - DB_USER=root
-          - DB_PASSWORD=123@Malik
+          - DB_PASSWORD=Use your password
           - DB_DATABASE=roof_deals_db
           - EMAIL_USER=your-email@gmail.com
           - EMAIL_PASSWORD=your-app-password
     
       db:
         environment:
-          - MYSQL_ROOT_PASSWORD=123@Malik #Use your owen database password please if you not comfortable using my database.
+          - MYSQL_ROOT_PASSWORD= #Use your owen database password please if you not comfortable using my database.
           - MYSQL_DATABASE=roof_deals_db
     ```
 
